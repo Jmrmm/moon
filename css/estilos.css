@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+	padding: 30;
+	font-size: 20px;
+	font-family: 'Calibri';
+	font-weight: bold;
+	background: url('../imagens/back2.jpg') fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.box {
+	position: absolute;
+	padding: 30px;
+	margin: 30px;
+	top: 25%;
+	height: 100%;
+	left: 5%;
+	width: 80%;
+	background-color: #fff;
+	box-shadow: 5px 5px 25px #000;
+	background: -moz-linear-gradient(top,  #ffffff 45%, #cccccc 74%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#ffffff), color-stop(74%,#cccccc), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 45%,#cccccc 74%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 45%,#cccccc 74%,#cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 45%,#cccccc 74%,#cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 45%,#cccccc 74%,#cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+.box1 {
+	position: absolute;
+	top: 30%;
+	left: 2%;
+}
+
+#submit {
+	position: absolute;
+	height: 20%;
+	width: 40%;
+	font-size: 1.2vw;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 50px;
+	border: none;
+	/* gradiente */
+	background: linear-gradient(to bottom, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -moz-linear-gradient(to bottom, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -o-linear-gradient(to bottom, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -ms-linear-gradient(to bottom, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -webkit-linear-gradient(to bottom, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#aacde2',GradientType=0 );
+}
+
+#submit:hover {
+	/* gradiente */
+	background: linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -moz-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -o-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -ms-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -webkit-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#aacde2',GradientType=0 );
+}
+
+ul#menu {
+	position: absolute;
+	right: 10%;
+	padding: 0;
+}
+
+ul#menu li {
+	list-style: none;
+	float: left;
+}
+
+ul#menu li a {
+	display: block;
+	color: #0c0;
+	border: solid #fc0;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 1vw;
+	font-family: Arial;
+	text-decoration: none;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+    -ms-transition: width 2s;
+    -mos-transition: width 2s;
+    transition: width 2s;
+    border-radius: 20%;
+    width: 100px;
+    text-align: center;
+	background: linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -moz-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -o-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -ms-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -webkit-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#aacde2',GradientType=0 );
+}
+
+ul#menu li a:hover {
+	color: #fc0;
+	width: 200px;
+}
+
+.menu {
+	position: absolute;
+	background: url("../imagens/jobs.png") no-repeat;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+}
+
+.menu2 {
+	position: absolute;
+	width: 100%;
+	top: 85%;
+	right: 2px;
+}
+
+#map_frame {
+	width: 100%;
+	height: 300px;
+}
+
+.map {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+}
+
+.form {
+	position: absolute;
+	top: 100px;
+}
+
+input {
+	width: 250px;
+}
+
+input:focus {
+	box-shadow: 3px 3px 50px #fc0;
+}
+
+textarea {
+	width: 250px;
+	height: 100px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    margin: 5px;
+    border: 1px solid #ff0000;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+    width: 220px;
+    height: 180px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+div.img a:hover img {
+    border: 1px solid #0000ff;
+    width: 110px;
+    height: 90px;
+}
+
+input {
+	width: 200px;
+}
+
+input:focus {
+	box-shadow: 3px 3px 50px #fc0;
+}
+
+textarea {
+	width: 200px;
+	height: 100px;
+}
+
+.map {
+	position: absolute;
+	top: 350px;
+	left: 30px;
+}
+
+#map_frame {
+	width: 90%;
+	height: 250px;
+}
+
+ul#menu li {
+	display: block;
+	list-style: none;
+	float: none;
+}
+
+.menu {
+	position: absolute;
+	background: url("../imagens/robot3.png") no-repeat;
+	top: 0;
+	right: 0;
+	left: 80%;
+	width: 20%;
+	height: 200%;
+}
+
+.menu2 {
+	position: absolute;
+	width: 10%;
+	top: 5%;
+	right: 5px;
+}
+
+ul#menu li a {
+    -webkit-transition: height 2s;
+    -o-transition: height 2s;
+    -ms-transition: height 2s;
+    -mos-transition: height 2s;
+    transition: height 2s;
+    border-radius: 20%;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+	background: linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -moz-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -o-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -ms-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	background: -webkit-linear-gradient(to top, #1e5799 0%,#207cca 30%,#207cca 30%,#aacde2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#aacde2',GradientType=0 );
+}
+
+ul#menu li a:hover {
+	color: #fc0;
+	width: 80px;
+	height: 40px;
+}
+
+.box {
+	position: absolute;
+	padding: 30px;
+	margin: 30px;
+	top: 2%;
+	height: 200%;
+	left: 5%;
+	width: 50%;
+	background-color: #fff;
+	box-shadow: 5px 5px 25px #000;
+}
+
+.box1 {
+	position: absolute;
+	top: 5%;
+	left: 2%;
+}
+
+}
